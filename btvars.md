@@ -3,6 +3,7 @@ Variables bootstrap
 
 Pour information, voici les surcharges et variables spécifiques du IClient. Nous pouvons vous fournir les valeurs spécifiques pour chaque client, qui font parties du paramétrage de ce dernier et qui n'évoluent que très peu.
 
+```
 /* Couleur par défaut du fond du site */
 $iclientSibgColor: jvsFullColor('sibg-color');
 /* Couleur par défaut du texte du site */
@@ -97,3 +98,4 @@ $carousel-indicator-active-bg : $iclientHhColor;
 $nav-tabs-link-active-color : lighten($iclientBdColor, 40);
 $nav-tabs-link-active-bg : $iclientBdColor;
 $nav-tabs-link-active-border-color : lighten($iclientBdColor, 40);
+```
