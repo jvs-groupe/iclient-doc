@@ -35,11 +35,11 @@ Dans le second cas la création graphique sera prise en charge par le pôle eau 
 
 Un client PHP et/ou Java pourra être mis à disposition pour ces échanges.
 
+Le code Javascript de base est récupérable dans ce repository dans le fichier **JvsPartnerReleve.js**
+
 ## Design
 
 Comme précisé, c'est bootstrap 4 qui est utilisé avec 36 colonnes par ligne. Les thèmes sont adaptés ainsi que les couleurs des différents éléments boostrap. Le css est accessible pour tous donc merci de ne pas surcharger avec des css personnels pour éviter tout risque.
-
-
 
 ## Phase 1 : initialisation
 
