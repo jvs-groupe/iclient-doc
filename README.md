@@ -35,6 +35,12 @@ Dans le second cas la création graphique sera prise en charge par le pôle eau 
 
 Un client PHP et/ou Java pourra être mis à disposition pour ces échanges.
 
+## Design
+
+Comme précisé, c'est bootstrap 4 qui est utilisé avec 36 colonnes par ligne. Les thèmes sont adaptés ainsi que les couleurs des différents éléments boostrap. Le css est accessible pour tous donc merci de ne pas surcharger avec des css personnels pour éviter tout risque.
+
+
+
 ## Phase 1 : initialisation
 
 La première phase consiste à initialiser l'objet, pour celà il existe la méthode :
