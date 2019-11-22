@@ -108,6 +108,28 @@ this.render = function () {
 
 Rafraichissement des données.
 
+## Phase 4 : Bloc sur le tableau de bord
+
+Par défaut le lien d'accès à la page de relève se trouve sur la page de consulation des consommations avec les informations du compteur. Il est cependant possible d'ajouter un bloc pour accéder directement aux différents éléments depuis le tableau de bord. L'objet à renseigner se trouve dans le fichier javascript.
+
+```
+  this.dashboard = {
+    // Le titre du bloc
+    'title' : 'Ma consommation journalière',
+    // La liste des liens, mais en général au moins celui pour afficher les relevés, donc celui ci-dessous
+    'links' : [
+      {
+        'title'   : 'Suivre ma consommation',
+        'target'  : 'releve',
+        'params'  : 'contrat_id',
+        'topmenu' : true
+      }
+    ],
+    // Le commentaire afficher en fin du bloc
+    'comments' : '<span>Consultez votre consommation journalière</span><br />...'
+  }
+```
+
 ## Objets disponibles
 
 On injecte dans la classe, donc accessible via this. :
