@@ -147,5 +147,5 @@ Des méthodes :
 
 Un logger :
 
-* logger, qui alimente l'ELK du pole Eau.
-  - avec les méthodes debug, info, error, critical
+* logger, qui alimente l'ELK du Pôle Omega en fonction du niveau activé
+  - avec les méthodes debug(9), info(7), error(2), critical(0)
